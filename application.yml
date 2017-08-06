@@ -1,0 +1,36 @@
+---
+# Items that apply to ALL profiles:
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.1.132:8010/eureka/,http://192.168.1.132:8011/eureka/,http://192.168.1.132:8012/eureka/,http://192.168.1.132:8013/eureka/
+lucky-word: "1"
+---
+spring:
+  profiles: subject
+words: I,You,He,She,It
+lucky-word: "2"
+
+---
+spring:
+  profiles: verb
+words: ran,knew,had,saw,bought
+lucky-word: "3"
+
+---
+spring:
+  profiles: article
+words: a,the
+lucky-word: "4"
+
+---
+spring:
+  profiles: adjective
+words: reasonable,leaky,suspicious,ordinary,unlikely
+lucky-word: "5"
+
+---
+spring:
+  profiles: noun
+words: boat,book,vote,seat,backpack,partition,groundhog
+lucky-word: "7"
