@@ -9,23 +9,28 @@ lucky-word: "Serendipity"
 spring:
   profiles: subject
 words: I,You,He,She,It
+lucky-word: "S"
 
 ---
 spring:
   profiles: verb
 words: ran,knew,had,saw,bought
+lucky-word: "W"
 
 ---
 spring:
   profiles: article
 words: a,the
+lucky-word: "O"
 
 ---
 spring:
   profiles: adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
+lucky-word: "K"
 
 ---
 spring:
   profiles: noun
-words: boat,book,vote,seat,backpack,partition,groundhog  
+words: boat,book,vote,seat,backpack,partition,groundhog 
+lucky-word: "M"
