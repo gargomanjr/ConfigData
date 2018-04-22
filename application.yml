@@ -3,8 +3,9 @@
 eureka:
   client:
     serviceUrl:
-      #defaultZone: http://localhost:8010/eureka/
-      defaultZone: http://localhost:8010/eureka/,http://localhost:8011/eureka/,http://localhost:8012/eureka/,http://localhost:8013/eureka/
+      defaultZone: http://localhost:8010/eureka/
+      #Ejemplo de cluster con 3 instancias. Los microservicios apuntan a 8010 y se replican en las otras instancias de Eureka
+      #defaultZone: http://localhost:8010/eureka/,http://localhost:8011/eureka/,http://localhost:8012/eureka/,http://localhost:8013/eureka/
 lucky-word: "1"
 ---
 spring:
